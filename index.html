@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tdoan08's website</title>
+<meta charset="utf-8">
+<meta name="keywords" content="Tdoan08, coder, resume, HTML, CSS, JavaScript, C++">
+<meta name="description" content="Coder's Resume">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="image/icon.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</head>
+
+<body>
+<div id = "wrapper">
+<header>
+	<nav>
+		<a href="index.html" id="home"><img src="image/icon.png" alt="tdoan08's icon"></a>
+		<div class="desktop">
+			<div class="overlay-content">
+				<a href="portfolio.html">Portfolio</a>
+				<a href="resume.html">Resume</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+		<div class="mobile">
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="portfolio.html">Portfolio</a>
+					<a href="resume.html">Resume</a>
+					<a href="about.html">About</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>
+		<div class="clearFloat"></div>
+	</nav>
+</header>
+<main>
+	<div id="starter">
+		<img src="image/getStart.jpg" alt="tdoan08's home page">
+		<h1>Welcome to Tdoan08's Website</h1>
+		<a class="btn" href="portfolio.html">Get Start</a>
+	</div>
+</main>
+<div class="push"></div>
+</div>
+<footer class="footer">
+    Copyright &copy; CPSC1030-ID:100302531<br>
+    <a href="mailto:tdoan08@mylangara.ca">tdoan08@mylangara.ca</a>
+</footer>
+</body>
+</html>
