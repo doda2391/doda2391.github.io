@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tdoan08's Game</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Tdoan08, coder, resume, HTML, CSS, JavaScript, C++">
+		<meta name="description" content="Coder's Resume">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="image/icon.png" type="image/png" sizes="16x16">
+		<script src="swing.js"></script>
+		<style>
+			body {
+				margin-top: 5vh;
+				padding: 0;
+				text-align: center;
+				overflow: hidden;
+			}
+			#game {
+				float: left;
+				width: 80%;
+			}
+			#board{
+				background-color: black;
+				color: #00ffff;
+				font-family: Cursive;
+				width: 19%;
+				height: 25vh;
+				float: right;
+			}
+			#buttons{
+				background-color: black;
+				width: 19%;
+				height: 55vh;
+				float: right;
+			}
+			.gameControl{
+				background-color: #00ffff;
+				color: black;
+				border: 2px solid black;
+				font-size: 300%;
+				width: 80%;
+				height: 25%;
+				font-family: Cursive;
+			}
+			.gameControl:hover {
+				background-color: black;
+				color: #00ffff;
+				border: 2px solid #00ffff;
+			}
+			ul {
+				display: block;
+				list-style-type: none;
+			}
+			li {
+				margin-top: 75px;
+			}
+		</style>
+	</head>
+	<body onload="setup()">
+		<div id="game">
+		<canvas id="surface" style="border:1px solid black;"></canvas>
+		</div>
+		<div id="board">
+		</div>
+		<div id="buttons">
+			<ul>
+				<li><button id="play" class="gameControl" onclick="playGame()">Play Game</button></li>
+				<li><button class="gameControl" onclick="restartGame()">Restart</button></li>
+				<li><button class="gameControl" onclick="chooseLevel()">Choose Levels</button></li>
+			</ul>
+		</div>
+	</body>
+</html>
