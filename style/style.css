@@ -29,7 +29,7 @@ nav {
 .footer {
 	height: 40px;
 	width: 100%;
-	font-size: x-small;
+	font-size: 12px;
 	text-align: center;
 	background-color: black;
 	color: white;
@@ -212,7 +212,7 @@ input[type=submit]:hover {
 	}
 	.mobile span { margin-left: 50%; }
 	#starter h1 { font-size: 30px; }
-	#starter .btn { font-size: 10px; }
+	#starter .btn { font-size: 12px; }
 	#resume { font-size: 60%; }
 	.floatLeft { width: 80%; clear: left; }
 	.floatRight { width: 80%; clear: right; }
